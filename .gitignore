@@ -24,3 +24,9 @@ go.work.sum
 
 # env file
 .env
+
+./bin
+
+# folder bin
+bin/
+tmp/

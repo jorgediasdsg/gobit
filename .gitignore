@@ -30,3 +30,4 @@ go.work.sum
 # folder bin
 bin/
 tmp/
+bin/api

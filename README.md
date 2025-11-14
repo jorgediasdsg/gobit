@@ -34,3 +34,14 @@ brew install sqlc
 sqlc generate -f ./internal/store/pgstore/sqlc.yml
 ```
 
+HotReload
+```shell
+go install github.com/air-verse/air@latest
+
+air --build.cmd "go build -o ./bin/api ./cmd/api" --build.bin "./bin/api"
+```
+
+Criar tabela bom tern
+```shell
+tern new create_users_table
+```
